@@ -1,0 +1,18 @@
+{
+    "key": "key",
+    "summary": "fields.summary",
+    "description": "fields.description",
+    "status": "fields.status.name",
+    "issuetype": "fields.issuetype.name",
+    "issue_type": "fields.issuetype.name",
+    "issueType": "fields.issuetype.name",
+    "issue type": "fields.issuetype.name",
+    "created": "fields.created",
+    "updated": "fields.updated",
+    "City": "fields.customfield_10101..value",
+    "City (select list: multiple choice)": "fields.customfield_10101..value",
+    "customfield_10101": "fields.customfield_10101..value",
+    "Service": "fields.customfield_14301.value|child.value",
+    "Service (select list: cascading)": "fields.customfield_14301.value|child.value",
+    "customfield_14301": "fields.customfield_14301.value|child.value"
+}
