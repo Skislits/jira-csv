@@ -50,7 +50,6 @@ def _get_value_for_multiple_choice_field(field_path: str, issue: Dict[str, Any])
     """
     Get value for multiple select list field
     
-    TODO добавить обработку нескольких уровней массива add nested
     :param field_path: json path to field (from path_to_fields.json)
     :param issue: raw Jira Issue instance
     :return: str with values separated by |
@@ -185,13 +184,10 @@ if __name__ == '__main__':
         'key',
         'status',
         'summary',
-        'Город',
+        'City',
         'created',
         'updated',
-        'issuetype',
-        'customfield_33404',
-        'customfield_10901',
-        'customfield_10300'
+        'issuetype'
     ]
     export_issues(jql_request, fields_to_export)
     print('export ended at: ', datetime.now().strftime("%m/%d/%Y %I:%M:%S %p"))
